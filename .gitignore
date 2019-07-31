@@ -1,2 +1,4 @@
 .sass-cache/
 *.scssc
+config.rb
+dev.txt
