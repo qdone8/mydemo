@@ -4,20 +4,75 @@
 
 @import 'compass/layout';
 
-.footer {
-	@include sticky-footer(54px);
-	
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins...............Useful mixins.
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE
+ * Headings.............H1–H6 styles.
+ *
+ * OBJECTS
+ * Wrappers.............Wrapping and constraining elements.
+ *
+ * COMPONENTS
+ * Page-head............The main page header.
+ * Page-foot............The main page footer.
+ * Buttons..............Button elements.
+ *
+ * TRUMPS
+ * Text.................Text helpers.
+ */
+
+
+/*------------------------------------*\
+  #SECTION-TITLE
+\*------------------------------------*/
+.selector { }
+
+
+/*------------------------------------*\
+  #ANOTHER-SECTION
+\*------------------------------------*/
+
+/**
+ * Comment
+ */
+
+.another-selector { }
+
+//多选择器时写法
+.foo, .foo--bar,
+.baz {
+  display: block;
+  background-color: green;
+  color: red;
 }
-.bgcolor {
-	background-color:lightblue;
-	
+//对齐格式
+.foo {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+//对齐的格式要求
+.bar {
+  position: absolute;
+  top:    0;
+  right:  0;
+  bottom: 0;
+  left:   0;
+  margin-right: -10px;
+  margin-left:  -10px;
+  padding-right: 10px;
+  padding-left:  10px;
 }
 
-.width {
-	width:auto;
-	
-	display:inline-flex;
-}
-.height {
-	height:100px;
-}
+

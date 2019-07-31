@@ -4,7 +4,7 @@ Error: File to import not found or unreadable: compass/layout.
          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/bourbon
          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/neat
          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/base
-        on line 5 of F:\cskweb\webtest\mydemo\sass\mypic.scss
+        on line 5 of D:\C_DEMO\mydemo\sass\mypic.scss
 
 1: /* CSS Document *\/
 2: 
@@ -12,13 +12,13 @@ Error: File to import not found or unreadable: compass/layout.
 4: 
 5: @import 'compass/layout';
 6: 
-7: .footer {
-8: 	@include sticky-footer(54px);
-9: 	
-10: }
+7: /**
+8:  * CONTENTS
+9:  *
+10:  * SETTINGS
 
 Backtrace:
-F:\cskweb\webtest\mydemo\sass\mypic.scss:5
+D:\C_DEMO\mydemo\sass\mypic.scss:5
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -55,4 +55,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/layout.\A        Load paths:\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/bourbon\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/neat\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/base\A         on line 5 of F:\cskweb\webtest\mydemo\sass\mypic.scss\A \A 1: /* CSS Document */\A 2: \A 3: @charset 'UTF-8';\A 4: \A 5: @import 'compass/layout';\A 6: \A 7: .footer {\A 8: 	@include sticky-footer(54px);\A 9: 	\A 10: }"; }
+  content: "Error: File to import not found or unreadable: compass/layout.\A        Load paths:\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/bourbon\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/neat\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/base\A         on line 5 of D:\C_DEMO\mydemo\sass\mypic.scss\A \A 1: /* CSS Document */\A 2: \A 3: @charset 'UTF-8';\A 4: \A 5: @import 'compass/layout';\A 6: \A 7: /**\A 8:  * CONTENTS\A 9:  *\A 10:  * SETTINGS"; }
