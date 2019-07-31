@@ -5,3 +5,20 @@
 
 @import "compass/reset";
 @import "compass/layout";
+@import 'compass/css3';
+
+.div{
+	background: purple;
+	color:white;
+	width:auto;	
+	height:200px;
+}
+
+.font-size{
+	font-size:1.5em;
+}
+
+.display{
+	display: inline-flex;
+	
+}
