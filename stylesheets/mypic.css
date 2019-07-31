@@ -1,0 +1,39 @@
+/* CSS Document */
+/* line 10, d:/Ruby26/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+.footer html, .footer body {
+  height: 100%;
+}
+/* line 12, d:/Ruby26/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+.footer #root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -54px;
+}
+/* line 18, d:/Ruby26/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+.footer #root #root_footer {
+  height: 54px;
+}
+/* line 20, d:/Ruby26/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+.footer #footer {
+  clear: both;
+  position: relative;
+  height: 54px;
+}
+
+/* line 11, ../sass/mypic.scss */
+.bgcolor {
+  background-color: lightblue;
+}
+
+/* line 16, ../sass/mypic.scss */
+.width {
+  width: auto;
+  display: inline-flex;
+}
+
+/* line 21, ../sass/mypic.scss */
+.height {
+  height: 100px;
+}

@@ -1,0 +1,23 @@
+/* CSS Document */
+
+@charset 'UTF-8';
+
+@import 'compass/layout';
+
+.footer {
+	@include sticky-footer(54px);
+	
+}
+.bgcolor {
+	background-color:lightblue;
+	
+}
+
+.width {
+	width:auto;
+	
+	display:inline-flex;
+}
+.height {
+	height:100px;
+}
