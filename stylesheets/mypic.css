@@ -37,3 +37,12 @@
 .height {
   height: 100px;
 }
+
+/* line 25, ../sass/mypic.scss */
+.foo {
+  color: red;
+}
+/* line 28, ../sass/mypic.scss */
+.foo .bar {
+  color: blue;
+}
